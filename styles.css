@@ -1,0 +1,100 @@
+#grad {
+background-image:linear-gradient(to left,#81d4fa ,pink);
+}
+
+.mainbody {
+    background-color: #d9e2ec;
+    border: 5px solid linear-gradient (to right, #81d4fa, pink);
+     border-radius: 15px;
+    max-width: 650px;
+    height: 700px;
+    margin: 20px 25px 0px 20px;
+    padding: 5px 50px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+   
+}
+
+.fname {
+    text-align: left;
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+.contactme {
+        text-align: right;
+       color: black;
+       text-decoration: none;
+       word-spacing: 5px;
+      
+}
+span {
+    position: relative;
+    top: 40px;
+    right: 20px;
+}
+.dribble {
+    text-decoration: none;
+    color:black
+}
+.linkedin {
+    text-decoration: none;
+    color: black;
+    }
+.about {
+    text-decoration: none;
+    color: black;
+}
+.contact {
+    text-decoration: none;
+    color: black;
+}
+
+#photo {
+   position: relative;
+   left: 10px;
+   padding-top:  70px;
+    display: flex;
+ 
+   
+}
+#photo img {
+    margin-right: 20px;
+}
+
+.text1 p {
+   padding-top: 0.1px;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.text1 {
+    margin-left: 30px;
+}
+
+.text2 {
+    margin-right: 10px;
+}
+.text2 p {
+    padding-top:0.1px;
+}
+    
+#grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-top: 75px;
+    position: relative;
+    bottom: 20px;
+    
+}
